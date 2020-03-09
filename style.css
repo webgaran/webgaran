@@ -1,0 +1,169 @@
+/*
+Theme Name: Webgaran Theme
+Theme URI: http://webgaran.ir
+Author: webgaran
+Author URI: http://webgaran.ir
+Description: This is an awesome theme for Webgaran Site
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, sidebar, responsive, clean, minimal, icon font, sunset, custom admin options.
+Text Domain: Webgaran
+*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: webgaran;
+    direction: rtl;
+    text-align: justify;
+}
+#webgaran_nav {
+	list-style-type: none;
+	text-align: center;
+}
+#webgaran_nav li {
+	display: inline-block;
+}
+
+
+
+
+
+/*=======================================================================
+	Container CSS
+=======================================================================*/
+.container {
+  margin: auto
+}
+@media only screen and (min-width:320px) {
+  .container {
+      max-width: 360px
+  }
+}
+@media only screen and (min-width:480px) {
+  .container {
+      max-width: 460px
+  }
+}
+@media only screen and (min-width:580px) {
+  .container {
+      max-width: 560px
+  }
+}
+@media only screen and (min-width:780px) {
+  .container {
+      max-width: 740px
+  }
+}
+@media only screen and (min-width:980px) {
+  .container {
+      max-width: 960px
+  }
+}
+@media only screen and (min-width:1180px) {
+  .container {
+      max-width: 1160px
+  }
+}
+@media only screen and (min-width:1300px) {
+  .container {
+      max-width: 1280px
+  }
+}
+@media only screen and (min-width:1680px) {
+    .container {
+        max-width: 1720px
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-megamenu {
+  border-radius: 0;
+}
+.navbar-megamenu .navbar-brand {
+  color: #fff;
+  font-weight: 800;
+}
+.navbar-megamenu .navbar-nav > li.megamenu {
+  position: static;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu {
+  min-width: 100%;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column {
+  width: 25%;
+  display: block;
+  float: right;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column:not(:first-child):after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 1px;
+  background-color: #eeeeee;
+  height: 100%;
+  top: 0;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .divider {
+  margin: 4px 15px 4px;
+  border: 1px solid #343a40;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a {
+  font-size: 12px;
+  padding: 11px 20px;
+  display: block;
+  /* color: #333; */
+  text-align: right;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a:hover, .navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a:focus {
+  background-color: #f5f5f5;
+  color: #333;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column a:before {
+  content: "";
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column span.sub {
+  font-size: 11px;
+  line-height: 1.6em;
+  margin-top: -4px;
+  padding: 2px 20px;
+  display: block;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .featured-image a {
+  font-size: 0px;
+  color: #2e7dd900;
+  font-weight: 600;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .featured-image a img {
+  padding: 5px 0;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .featured-image a:hover {
+  background: transparent;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .description {
+  padding: 3px 0;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .description a {
+  display: none;
+}
+.navbar-megamenu .navbar-nav > li.megamenu > .dropdown-menu .megamenu-column .more a {
+  text-align: left;
+}

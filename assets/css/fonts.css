@@ -1,0 +1,41 @@
+@font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran.eot);
+    src: url(../fonts/webgaran.eot) format("embedded-opentype"),url(../fonts/webgaran.woff2) format("woff2"),url(../fonts/webgaran.woff) format("woff"),url(../fonts/webgaran.ttf) format("truetype");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran-Bold.eot);
+    src: url(../fonts/webgaran-Bold.eot) format("embedded-opentype"),url(../fonts/webgaran-Bold.woff2) format("woff2"),url(../fonts/webgaran-Bold.woff) format("woff"),url(../fonts/webgaran-Bold.ttf) format("truetype");
+    font-weight: 700
+}
+
+/* @font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran-Light.eot);
+    src: url(../fonts/webgaran-Light.eot) format("embedded-opentype"),url(../fonts/webgaran-Light.woff2) format("woff2"),url(../fonts/webgaran-Light.woff) format("woff"),url(../fonts/webgaran-Light.ttf) format("truetype");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran-Medium.eot);
+    src: url(../fonts/webgaran-Medium.eot) format("embedded-opentype"),url(../fonts/webgaran-Medium.woff2) format("woff2"),url(../fonts/webgaran-Medium.woff) format("woff"),url(../fonts/webgaran-Medium.ttf) format("truetype");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran-Thin.eot);
+    src: url(../fonts/webgaran-Thin.eot) format("embedded-opentype"),url(../fonts/webgaran-Thin.woff2) format("woff2"),url(../fonts/webgaran-Thin.woff) format("woff"),url(../fonts/webgaran-Thin.ttf) format("truetype");
+    font-weight: 100
+}
+
+@font-face {
+    font-family: webgaran;
+    src: url(../fonts/webgaran-Black.eot);
+    src: url(../fonts/webgaran-Black.eot) format("embedded-opentype"),url(../fonts/webgaran-Black.woff2) format("woff2"),url(../fonts/webgaran-Black.woff) format("woff"),url(../fonts/webgaran-Black.ttf) format("truetype");
+    font-weight: 900
+} */
